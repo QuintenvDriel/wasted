@@ -24,3 +24,7 @@
     background-color: var(--clr_primary);
     
 }
+
+header {
+    background-color: var(--clr_primary);
+}
