@@ -10,8 +10,8 @@
 :root {
     /*colors*/
 
-    --clr_primary: #fdf0d5;
-    --clr_secondary: #588dab;
+    --clr_primary: #A9D18E;
+    --clr_secondary: rgba(169, 209, 142, 0.79);
     --clr_third: #004266;
 
     /*shadows*/
