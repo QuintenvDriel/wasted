@@ -39,10 +39,12 @@ a {
 }
 
 .logoImg {
+    padding: 0.5rem;
     width: 5rem;
     height: 5rem;
 }
 .favBtn {
+    color: white;
     margin-left: auto;
     padding: 1rem;
     font-size: 2rem;
@@ -50,7 +52,8 @@ a {
 
 
 .hamburgerBtn {
-    padding: 1rem;
+    color: white;
+    padding: 1rem 2rem 1rem 1rem;
     font-size: 2rem;
 }
 
