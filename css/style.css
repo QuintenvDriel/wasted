@@ -17,3 +17,8 @@
     --shdw_primary: -1rem 1rem 1rem rgba(0, 0, 0, 0.15);
     --shdw_secondary: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
+
+header.logo {
+    align-content: center;
+    background-color: --clr_primary;
+}
