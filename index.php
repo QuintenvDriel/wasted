@@ -18,6 +18,13 @@ include 'template.php';
 
 
 <main>
+    <section class="searchSection">
+        <div class="searchContainer">
+            <form action="">
+                <i class="fa-solid fa-magnifying-glass"></i><input class="searchBar" type="text" placeholder="Search..">
+            </form>
+        </div>
+    </section>
 
 </main>
 

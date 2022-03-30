@@ -52,3 +52,13 @@ img {
     font-size: 2rem;
 }
 
+.searchSection {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar::placeholder {
+    text-align: center;
+
+}
+
