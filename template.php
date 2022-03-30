@@ -11,7 +11,7 @@ function template_head($page)
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/5b818eb41b.js" crossorigin="anonymous"></script>
-    <title>Maatjes | $page</title>
+    <title>Wasted | $page</title>
 </head>
 EOT;
 }
