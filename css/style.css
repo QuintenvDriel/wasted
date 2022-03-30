@@ -9,7 +9,6 @@
 /*variables go here*/
 :root {
     /*colors*/
-
     --clr_primary: #A9D18E;
     --clr_secondary: rgba(169, 209, 142, 0.79);
 
@@ -22,11 +21,14 @@ img {
     max-width: 100%;
 }
 
+a {
+    color: black;
+}
+
 .header {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 5rem;
     background-color: var(--clr_primary);
 }
@@ -40,12 +42,12 @@ img {
     width: 5rem;
     height: 5rem;
 }
-
 .favBtn {
-    padding: 1rem;
     margin-left: auto;
+    padding: 1rem;
     font-size: 2rem;
 }
+
 
 .hamburgerBtn {
     padding: 1rem;
