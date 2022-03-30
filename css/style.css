@@ -20,5 +20,7 @@
 
 .logo {
     align-content: center;
+    max-width: 100%;
     background-color: var(--clr_primary);
+    
 }
