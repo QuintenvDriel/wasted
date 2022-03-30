@@ -18,14 +18,37 @@
     --shdw_secondary: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
-.logo {
-    align-content: center;
+img {
     max-width: 100%;
-    background-color: var(--clr_primary);
+}
 
-    
+.header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: var(--clr_primary);
+}
+
+
+.logo {
+    margin-left: calc(50vw - 2.5rem);
+}
+
+.logoImg {
+    width: 5rem;
+    height: 5rem;
 }
 
 .favBtn {
-;
+    padding: 1rem;
+    margin-left: auto;
+    font-size: 2rem;
 }
+
+.hamburgerBtn {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
