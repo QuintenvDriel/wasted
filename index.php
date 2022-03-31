@@ -19,10 +19,121 @@ include 'template.php';
 
 <main>
     <section class="searchSection">
-        <div class="searchContainer">
-            <form action="">
-                <i class="fa-solid fa-magnifying-glass"></i><input class="searchBar" type="text" placeholder="Search..">
-            </form>
+        <form action="" class="searchForm">
+            <input class="searchBar" type="text" placeholder="Search..">
+        </form>
+    </section>
+
+    <section class="productSection">
+        <div class="productContainer">
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
+            <div class="product">
+                <div class="productLeft">
+                    <h2 class="productTitle">
+                        Product 1
+                    </h2>
+                    <p class="productDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
+                        temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
+                    </p>
+                </div>
+                <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
+            </div>
         </div>
     </section>
 

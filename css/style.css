@@ -10,11 +10,14 @@
 :root {
     /*colors*/
     --clr_primary: #A9D18E;
-    --clr_secondary: rgba(169, 209, 142, 0.79);
+    --clr_secondary: rgba(169, 209, 142, 0.5);
 
     /*shadows*/
-    --shdw_primary: -1rem 1rem 1rem rgba(0, 0, 0, 0.15);
-    --shdw_secondary: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    --shdw_primary: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.html {
+    max-width: 100vw;
 }
 
 img {
@@ -25,12 +28,17 @@ a {
     color: black;
 }
 
+header {
+    background-color: var(--clr_primary);
+}
+
 .header {
-    width: 100vw;
+    max-width: 100vw;
+    min-width: 80vw;
     display: flex;
     align-items: center;
     height: 5rem;
-    background-color: var(--clr_primary);
+
 }
 
 
@@ -43,6 +51,7 @@ a {
     width: 5rem;
     height: 5rem;
 }
+
 .favBtn {
     color: white;
     margin-left: auto;
@@ -58,12 +67,84 @@ a {
 }
 
 .searchSection {
+    margin: 1rem 0rem;
     display: flex;
     justify-content: center;
+
+}
+
+.searchForm {
+    max-width: 80vw;
+}
+
+.searchBar {
+    width: 14rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: var(--clr_primary) 2px solid;
+    background-color: #e7e7e7;
+    box-shadow: var(--shdw_primary);
 }
 
 .searchBar::placeholder {
     text-align: center;
+    color: black;
 
+}
+
+/*products */
+.productSection {
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.productContainer {
+    min-width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    max-width: 20rem;
+    max-height: 10rem;
+    background-color: var(--clr_secondary);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    ".productLeft .productImg";
+    border-radius: 1rem;
+    margin: 1rem 2rem;
+    box-shadow: var(--shdw_primary);
+}
+
+.product:first-of-type {
+    margin-top: 1rem;
+}
+
+.productLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.productTitle {
+    padding: 1rem;
+    border-bottom: black 1px solid;
+}
+
+.productDescription {
+    padding: 1rem;
+    max-width: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productImg {
+    object-fit: cover;
+    border-left: black 1px solid;
 }
 
