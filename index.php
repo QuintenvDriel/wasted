@@ -11,8 +11,17 @@ include 'template.php';
     <div class="header">
         <a href="#" class="logo"><img class="logoImg" src="source/logo1.png" alt=""></a>
         <a href="#" class="favBtn"><i class="fa-solid fa-heart"></i></a>
-        <a href="#" class="hamburgerBtn"><i class="fa-solid fa-bars"></i></a>
+        <i id="HamburgerMenu" class="fa-solid fa-bars hamburgerBtn"></i>
     </div>
+
+    <nav id="nav" class="navContainer navHide">
+        <ul class="navList">
+            <li class="navItem"><a href="" class="navLink">Filter</a></li>
+            <li class="navItem"><a href="" class="navLink">Aanbieders</a></li>
+            <li class="navItem"><a href="" class="navLink">Reviews</a></li>
+            <li class="navItem"><a href="" class="navLink">Login</a></li>
+        </ul>
+    </nav>
 
 </header>
 
@@ -143,5 +152,5 @@ include 'template.php';
 <footer>
 
 </footer>
-
+<script src="js/script.js"></script>
 </body>
