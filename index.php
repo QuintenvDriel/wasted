@@ -14,135 +14,135 @@ include 'template.php';
         <i id="HamburgerMenu" class="fa-solid fa-bars hamburgerBtn"></i>
     </div>
 
-    <nav id="nav" class="navContainer navHide">
-        <ul class="navList">
+    <navigationBar id="nav" class="navigationBarContainer navigationBarHide">
+        <ul class="navigationBarList">
             <li class="navItem"><a href="" class="navLink">Filter</a></li>
             <li class="navItem"><a href="" class="navLink">Aanbieders</a></li>
             <li class="navItem"><a href="" class="navLink">Reviews</a></li>
             <li class="navItem"><a href="" class="navLink">Login</a></li>
         </ul>
-    </nav>
+    </navigationBar>
 
 </header>
 
 
 <main>
-    <section class="searchSection">
+    <searchbar class="searchSection">
         <form action="" class="searchForm">
             <input class="searchBar" type="text" placeholder="Search..">
         </form>
-    </section>
+    </searchbar>
 
     <section class="productSection">
         <div class="productContainer">
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
                         Product 1
-                    </h2>
-                    <p class="productDescription">
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 2
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 3
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 4
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 5
+                    </productTitle>
+                    <decription class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </decription>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 6
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 7
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 8
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
-            <div class="product">
-                <div class="productLeft">
-                    <h2 class="productTitle">
-                        Product 1
-                    </h2>
-                    <p class="productDescription">
+            </product>
+            <product class="product">
+                <left class="productLeft">
+                    <productTitle class="productTitle">
+                        Product 9
+                    </productTitle>
+                    <description class="productDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit incidunt nobis placeat, sapiente
                         temporibus velit voluptate? Aspernatur, assumenda facilis libero nisi qui vitae voluptatibus!
-                    </p>
-                </div>
+                    </description>
+                </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
-            </div>
+            </product>
         </div>
     </section>
 

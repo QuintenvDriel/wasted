@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Lato;
+    font-family: Lato,sans-serif;
 }
 
 /*variables go here*/
@@ -73,7 +73,7 @@ header {
     font-size: 2rem;
 }
 
-.navHide {
+.navigationBarHide {
     transform: translate(0,-15rem);
     transition: transform ease-in-out 0.5s;
 }
@@ -82,7 +82,7 @@ header {
     transition: transform ease-in-out 0.5s;
 }
 
-.navContainer {
+.navigationBarContainer {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@ header {
 
 }
 
-.navList {
+.navigationBarList {
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
@@ -119,14 +119,14 @@ header {
 
 }
 
-.searchForm {
+.searchBarForm {
     max-width: 80vw;
 }
 
 .searchBar {
     width: 14rem;
     height: 1.5rem;
-    border-radius: 5px;
+    border-radius: 7px;
     border: var(--clr_primary) 2px solid;
     background-color: #e7e7e7;
     /*box-shadow: var(--shdw_primary);*/
