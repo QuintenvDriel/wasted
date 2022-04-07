@@ -21,6 +21,14 @@
     max-width: 100vw;
 
 }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #A9D18E;
+    }
+    .productContainer {
+        background-color: white;
+    }
+}
 
 img {
     max-width: 100%;
@@ -45,7 +53,6 @@ header {
     align-items: center;
     height: 5rem;
     box-shadow: var(--shdw_primary);
-
 }
 
 
@@ -91,7 +98,6 @@ header {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: var(--shdw_primary);
-
 }
 
 .navigationBarList {

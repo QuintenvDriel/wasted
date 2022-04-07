@@ -8,11 +8,11 @@ include 'template.php';
 <body>
 
 <header>
-    <div class="header">
+    <section class="header">
         <a href="#" class="logo"><img class="logoImg" src="source/logo1.png" alt=""></a>
         <a href="#" class="favBtn"><i class="fa-solid fa-heart"></i></a>
         <i id="HamburgerMenu" class="fa-solid fa-bars hamburgerBtn"></i>
-    </div>
+    </section>
 
     <navigationBar id="nav" class="navigationBarContainer navigationBarHide">
         <ul class="navigationBarList">
@@ -34,7 +34,7 @@ include 'template.php';
     </searchbar>
 
     <section class="productSection">
-        <div class="productContainer">
+        <article class="productContainer">
             <product class="product">
                 <left class="productLeft">
                     <productTitle class="productTitle">
@@ -143,7 +143,7 @@ include 'template.php';
                 </left>
                 <img src="source/(NEW)%20Wasted%20logo-geen%20tekst.png" alt="productImg" class="productImg">
             </product>
-        </div>
+        </article>
     </section>
 
 </main>
